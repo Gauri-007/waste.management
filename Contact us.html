@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header8">
+        <nav>
+            <a href="index.html"> <img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()">
+            </i>
+                <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="waste%20management.html">WASTE MANAGEMENT</a></li>
+            <li><a href="E-waste.html">E-WASTE</a></li>
+            <li><a href="Plastic%20waste.html">PLASTIC WASTE</a></li>
+            <li><a href="Organic%20waste.html">ORGANIC WASTE</a></li>
+            <li><a href="Paper%20waste.html">PAPER WASTE</a></li>
+            <li><a href="Glass%20Waste.html">GLASS WASTE</a></li>
+            <li><a href="Metal%20Waste.html">METAL WASTE</a></li> <li><a href="Contact%20us.html">CONTACT US</a></li>
+        </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1> Contact us </h1>
+</section>
+    <!-----Contact us content----->
+<section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227821.93375797602!2d80.80242330326529!3d26.848929333002115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1638626926346!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+</section>
+    <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+        <div>
+           <i class="fa fa-home"></i>
+
+            <span><h5>Bhagirathi Enclave</h5> 
+                <p>Near Medanta Hospital, Lucknow</p></span>
+        </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+            <span><h5>gaurichaurasia2008@gmail.com</h5> 
+                <p>E-mail us your querry and feedback</p></span>
+        </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <input type="text" name="subject" placeholder="Enter your query or feedback" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn">Send</button>    
+            </form>
+        </div>
+    </div>
+
+    </section>
+     <!-----Footer---->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Help us to save our environment as, <br>
+        "Nature is not asking us to protect her for her, she is asking us to protect her for our future generations."</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>        
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Gauri Chaurasia </p>
+</section>    
+<!-----JavaScript for toggle menu----->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+         function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</HTML>
